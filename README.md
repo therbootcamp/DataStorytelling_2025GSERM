@@ -1,2 +1,5 @@
-# DataStorytelling_2025GSERM
-Data Storytelling 2025 GSERM
+## Communicating and Visualizing Data with R
+
+This is the home of the Communicating and Visualizing Data with R course at [GSERM 2024](https://gserm.org/courses-directory/visualizing-and-communicating-data-with-r/) offered by [Dirk U. Wulff](https://www.mpib-berlin.mpg.de/person/93374/2549) & [Michael Schulte-Mecklenbeck](https://www.consumer.imu.unibe.ch/ueber_uns/team/prof_dr_schulte_mecklenbeck_michael/index_ger.html).
+
+The creation and communication of data visualizations is a critical step in any data analytic project. Modern open-source software packages offer powerful visualization tools that, when paired with psychological and design principles, can be used to create effective data visualizations. In this course, participants learn to leverage these tools within the programming language R to create carefully designed, publication-ready data visualizations to communicate key insights extracted from data. Prior to, during, and after the course, participants will work on their own data visualization project.
