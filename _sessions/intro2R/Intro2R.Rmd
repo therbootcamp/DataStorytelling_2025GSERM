@@ -1,11 +1,11 @@
 ---
 title: "Intro 2 R"
-author: "Visualizing and communicating data with R<br>
+author: "Data sotrytelling with R<br>
   <a href='https://therbootcamp.github.io'>
     <font style='font-size:1em'>The R Bootcamp @ GSERM</font>
   </a>
   <br>
-  <a href='https://therbootcamp.github.io/DataViz_2024GSERM/'>
+  <a href='https://therbootcamp.github.io/DataStorytelling_2025GSERM/'>
     <i class='fas fa-clock' style='font-size:1.4em;'></i>
   </a>&#8239; 
   <a href='https://therbootcamp.github.io'>
@@ -17,7 +17,7 @@ author: "Visualizing and communicating data with R<br>
   <a href='https://www.linkedin.com/company/27090302'>
     <i class='fab fa-linkedin' style='font-size: 1.4em;'></i>
   </a>"
-date: "June 2024"
+date: "June 2025"
 output:
   xaringan::moon_reader:
     css: ["default", "baselrbootcamp.css"]
@@ -45,7 +45,7 @@ layout: true
     </a>
     <a href="https://therbootcamp.github.io/">
       <font color="#7E7E7E">
-      The R Bootcamp | June 2024
+      The R Bootcamp | June 2025
       </font>
     </a>
     </span>
@@ -63,7 +63,8 @@ options(htmltools.dir.version = FALSE)
 options(width=110)
 options(digits = 4)
 require(tidyverse)
-basel = readr::read_csv('1_data/basel.csv')
+library(here)
+basel = read_csv(here('_sessions/intro2R/1_Data/basel.csv'))
 ```
 
 <!---
@@ -525,7 +526,7 @@ library(tidyverse)
 .pull-left45[
 
 <ul>
-  <li class="m1"><span>The <high>novel pipe operator</high> from the <a href="https://cran.r-project.org/web/packages/magrittr/vignettes/magrittr.html"><mono>magrittr</mono></a> package makes chaining commands easy.</span></li>
+  <li class="m1"><span>The <high> pipe operator</high> from the <a href="https://cran.r-project.org/web/packages/magrittr/vignettes/magrittr.html"><mono>magrittr</mono></a> package makes chaining commands easy.</span></li>
 </ul>
 
 <br>
@@ -599,7 +600,7 @@ score %>%
 
 <br>
 <p align="center">
-  <img src="https://github.com/rstudio/hex-stickers/raw/master/PNG/readr.png" height=240px>
+  <img src="https://github.com/rstudio/hex-stickers/blob/main/PNG/readr.png?raw=true" height=240px>
 </p>
 
 ]
@@ -631,7 +632,7 @@ score %>%
 
 <br>
 <p align="center">
-  <img src="https://github.com/rstudio/hex-stickers/raw/master/PNG/readr.png" height=240px>
+  <img src="https://github.com/rstudio/hex-stickers/blob/main/PNG/readr.png?raw=true" height=240px>
 </p>
 
 ]
@@ -672,7 +673,7 @@ basel
 
 <br>
 <p align="center">
-  <img src="https://github.com/rstudio/hex-stickers/raw/master/PNG/tibble.png" height=240px>
+  <img src="https://github.com/rstudio/hex-stickers/blob/main/PNG/tibble.png?raw=true" height=240px>
 </p>
 
 ]
@@ -714,7 +715,7 @@ basel
 
 <br>
 <p align="center">
-  <img src="https://github.com/rstudio/hex-stickers/raw/master/PNG/dplyr.png" height=240px>
+  <img src="https://github.com/rstudio/hex-stickers/blob/main/PNG/dplyr.png?raw=true" height=240px>
 </p>
 
 ]
@@ -1105,7 +1106,7 @@ options(tibble.width = 35, tibble.max_extra_cols = 10, tibble.print_max = 5,
 
 <br>
 <p align="center">
-  <img src="https://github.com/rstudio/hex-stickers/raw/master/PNG/tidyr.png" height=240px>
+  <img src="https://github.com/rstudio/hex-stickers/blob/main/PNG/tidyr.png?raw=true" height=240px>
 </p>
 
 ]

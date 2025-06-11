@@ -605,5 +605,28 @@ class: middle, center
 </p>
 
 
+---
+
+class: middle, center
+
+<h1>Pitches</h1>
+
+---
+
+# Pitches
+
+.pull-left3[
+
+
+
+]
+
+
+.pull-right6[
+<p align="center">
+In this session, you will introduce your visualization sketch to the rest of the group. You will have 2 slides and 2 minutes for your pitch. Slide 1 should only show a project title and an image (e.g., from unsplash.com.) that helps you introduce and motivate your research question. Slide 2 should only show your hand-drawn visualization sketch and a slide title. No bullet points allowed. Be aware that 2 minutes pass by quickly. Please practice and ideally time your presentation beforehand. After each presentation there will be 3-5 minutes for peer feedback, so please be prepared to comment on fellow participants’ presentations.
+</p>
+
+]
 
 
