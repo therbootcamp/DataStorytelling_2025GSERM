@@ -1,6 +1,6 @@
 ---
 title: "Principles"
-author: "Data sotrytelling with R<br>
+author: "Data storytelling with R<br>
   <a href='https://therbootcamp.github.io'>
     <font style='font-size:1em'>The R Bootcamp @ GSERM</font>
   </a>

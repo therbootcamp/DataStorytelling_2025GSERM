@@ -15,31 +15,36 @@
 
 # Intro2R
 
-- Date Name Link
 - Practical
+- Update Slide 35 Screenshot Bootcamp Project Folder
 
-
-- Slide 29
-
-tidyR abbildung statt wide-long
-https://github.com/rstudio/cheatsheets/blob/main/tidyr.pdf
 
 # ggplot
 
-- Date Name Link
 - Practical
-
-- Slide 3
-
-facets jetzt als Punkt 4 - Reihenfolgen hinten?
 
 # Styling
 
-- Date Name Link
 - Practical
 
 
 # Maps & Nets
 
-- Date Name Link
 - Practical
+
+# Animate
+
+- Practical
+
+RENDER!
+
+# Quarto
+
+- Practical
+
+Slide 27 Relative path Bild austauschen - siehe Intro2R
+
+# Quarto II
+
+- Practical
+

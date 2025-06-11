@@ -1,0 +1,12 @@
+---
+format:
+  revealjs:
+    logo: unibe.png
+    footer: "University of Bern"
+---
+## {background-color="lightblue"}
+
+::: {.r-fit-text}
+Even [more]{style="color:red;"} important!
+
+:::

@@ -1,0 +1,11 @@
+---
+format:
+  revealjs:
+    logo: unibe.png
+    footer: "University of Bern"
+---
+## {.center}
+
+::: {.r-fit-text}
+Even more important!
+:::

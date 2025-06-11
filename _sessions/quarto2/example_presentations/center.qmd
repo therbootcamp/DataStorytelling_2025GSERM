@@ -1,0 +1,10 @@
+---
+format:
+  revealjs:
+    logo: unibe.png
+    footer: "University of Bern"
+---
+
+## This is important {.center}
+
+Sleep 7 hours!
