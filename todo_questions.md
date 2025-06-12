@@ -1,9 +1,8 @@
 # Index.html
 
 - Update Project link
-- update Installation.html
 
-- Pitches - remove practise ... 
+- Pitches - remove Practical ... 
 
 # Welcome
 
@@ -36,7 +35,6 @@
 
 - Practical
 
-RENDER!
 
 # Quarto
 
