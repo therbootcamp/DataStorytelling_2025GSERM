@@ -11,7 +11,7 @@ author: "Data storytelling with R<br>
   <a href='https://therbootcamp.github.io'>
     <i class='fas fa-home' style='font-size:1.4em;' ></i>
   </a>&#8239;
-  <a href='therbootcamp@gmail.com'>
+  <a href='mailto:therbootcamp@gmail.com'>
     <i class='fas fa-envelope' style='font-size: 1.4em;'></i>
   </a>&#8239;
   <a href='https://www.linkedin.com/company/27090302'>
@@ -293,8 +293,10 @@ Klicke auf <high>"....running..."</high> auf unserer Website!
 <ul>
   <li class="m1"><span>What is your name?</span></li><br>
   <li class="m2"><span>Where are you from?</span></li><br>
-  <li class="m3"><span>How much experience do you have with R?</span></li><br>
-  <li class="m4"><span>What is your goal behind wanting to learn data visualization with R?</span></li>
+  <li class="m3"><span>What is your main subject of study/work?</span></li><br>
+  <li class="m4"><span>How much experience do you have with R?</span></li><br>
+  <li class="m5"><span>What is your goal behind wanting to learn data visualization with R?</span></li>
+  <li class="m6"><span>What should the others know about you?</span></li>
 </ul>
 
 ]
@@ -313,7 +315,7 @@ Klicke auf <high>"....running..."</high> auf unserer Website!
 
 class: middle, center
 
-<h1><a href="https://www.dropbox.com/s/siwk0mqzr3dofc5/TheRBootcamp.zip?dl=1">Download<br>project</a></h1>
+<h1><a href="https://therbootcamp.github.io/DataStorytelling_2025GSERM/Storytelling.zip">Download<br>project</a></h1>
 
 
 ---

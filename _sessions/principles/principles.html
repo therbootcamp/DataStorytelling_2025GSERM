@@ -16,7 +16,7 @@ class: center, middle, inverse, title-slide
 # Principles
 ]
 .author[
-### Data storytelling with R<br> <a href='https://therbootcamp.github.io'> <font style='font-size:1em'>The R Bootcamp @ GSERM</font> </a> <br> <a href='https://therbootcamp.github.io/DataStorytelling_2025GSERM/'> <i class='fas fa-clock' style='font-size:1.4em;'></i> </a>  <a href='https://therbootcamp.github.io'> <i class='fas fa-home' style='font-size:1.4em;' ></i> </a>  <a href='therbootcamp@gmail.com'> <i class='fas fa-envelope' style='font-size: 1.4em;'></i> </a>  <a href='https://www.linkedin.com/company/27090302'> <i class='fab fa-linkedin' style='font-size: 1.4em;'></i> </a>
+### Data storytelling with R<br> <a href='https://therbootcamp.github.io'> <font style='font-size:1em'>The R Bootcamp @ GSERM</font> </a> <br> <a href='https://therbootcamp.github.io/DataStorytelling_2025GSERM/'> <i class='fas fa-clock' style='font-size:1.4em;'></i> </a>  <a href='https://therbootcamp.github.io'> <i class='fas fa-home' style='font-size:1.4em;' ></i> </a>  <a href='mailto:therbootcamp@gmail.com'> <i class='fas fa-envelope' style='font-size: 1.4em;'></i> </a>  <a href='https://www.linkedin.com/company/27090302'> <i class='fab fa-linkedin' style='font-size: 1.4em;'></i> </a>
 ]
 .date[
 ### June 2025
@@ -50,6 +50,220 @@ layout: true
 ---
 
 
+
+
+
+class: middle, center
+
+&lt;h1&gt;Why visualize data?&lt;/h1&gt;
+
+
+
+
+---
+
+
+# What does this data represent?
+
+.pull-left4[
+
+&lt;table&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:right;"&gt; x &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; y &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; x &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; y &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;"&gt; 1.972 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1.236 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.111 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.542 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;"&gt; 1.112 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1.994 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.902 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.005 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;"&gt; 0.000 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1.009 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.598 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.085 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;"&gt; 0.665 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1.942 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1.613 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1.790 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;"&gt; 0.235 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.356 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1.298 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1.955 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;"&gt; 0.247 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1.658 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.651 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1.937 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;"&gt; 1.275 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1.961 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1.949 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1.316 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;"&gt; 0.702 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.045 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.099 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.567 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;"&gt; 1.760 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.350 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.862 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.010 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;"&gt; 1.691 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.277 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.027 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.768 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;"&gt; 1.628 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1.778 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.706 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1.956 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;"&gt; 1.957 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1.290 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1.042 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1.999 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+]
+
+
+.pull-right5[
+
+
+
+]
+
+
+---
+
+# What does this data represent?
+
+.pull-left4[
+&lt;table&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:right;"&gt; x &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; y &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; x &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; y &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;"&gt; 1.972 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1.236 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.111 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.542 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;"&gt; 1.112 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1.994 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.902 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.005 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;"&gt; 0.000 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1.009 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.598 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.085 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;"&gt; 0.665 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1.942 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1.613 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1.790 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;"&gt; 0.235 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.356 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1.298 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1.955 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;"&gt; 0.247 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1.658 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.651 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1.937 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;"&gt; 1.275 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1.961 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1.949 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1.316 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;"&gt; 0.702 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.045 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.099 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.567 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;"&gt; 1.760 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.350 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.862 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.010 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;"&gt; 1.691 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.277 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.027 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.768 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;"&gt; 1.628 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1.778 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.706 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1.956 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;"&gt; 1.957 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1.290 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1.042 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1.999 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+]
+
+
+.pull-right5[
+
+&lt;img src="principles_files/figure-html/unnamed-chunk-5-1.png" style="display: block; margin: auto;" /&gt;
+
+
+]
+
+
+---
 
 # Topics
 
@@ -258,6 +472,391 @@ layout: true
 
 ---
 
+# Gestalt Psychology
+
+.pull-left4[
+
+&lt;ul&gt;
+  &lt;li class="m1"&gt;&lt;span&gt;&lt;high&gt;Gestalt ~ Shape &lt;/high&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m2"&gt;&lt;span&gt;&lt;high&gt;Austrian / German&lt;/high&gt; Psychology&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m3"&gt;&lt;span&gt;Started &lt;high&gt;late 19th century&lt;high&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+]
+
+.pull-right5[
+
+
+The mind perceives objects as &lt;high&gt;organized wholes&lt;/high&gt; rather than &lt;high&gt;separate parts&lt;/high&gt;.
+]
+
+
+---
+
+
+# Gestalt Psychology
+
+.pull-left4[
+
+&lt;ul&gt;
+  &lt;li class="m1"&gt;&lt;span&gt;&lt;high&gt;Gestalt ~ Shape &lt;/high&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m2"&gt;&lt;span&gt;&lt;high&gt;Austrian / German&lt;/high&gt; Psychology&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m3"&gt;&lt;span&gt;Started &lt;high&gt;late 19th century&lt;high&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+]
+
+.pull-right5[
+The mind perceives objects as &lt;high&gt;organized wholes&lt;/high&gt; rather than &lt;high&gt;separate parts&lt;/high&gt;.
+&lt;center&gt;
+&lt;img src="image/wwf.png" height="400px"&gt;
+&lt;/center&gt;
+]
+
+---
+
+# Gestalt Psychology
+
+.pull-left4[
+
+&lt;ul&gt;
+  &lt;li class="m1"&gt;&lt;span&gt;&lt;high&gt;reification&lt;/high&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m2"&gt;&lt;span&gt;emergence&lt;high&gt;&lt;/high&gt; &lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m3"&gt;&lt;span&gt;Prägnanz (simplicity) &lt;high&gt;&lt;high&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+]
+
+.pull-right5[
+
+&lt;center&gt;
+&lt;img src="image/wwf.png" height="400px"&gt;
+&lt;/center&gt;
+]
+
+---
+
+# Gestalt Psychology
+
+.pull-left4[
+
+&lt;ul&gt;
+  &lt;li class="m1"&gt;&lt;span&gt;reification&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m2"&gt;&lt;span&gt;&lt;high&gt;emergence&lt;/high&gt; &lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m3"&gt;&lt;span&gt;Prägnanz (simplicity) &lt;high&gt;&lt;high&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+]
+
+.pull-right5[
+
+&lt;center&gt;
+&lt;img src="image/emergence.png" height="400px"&gt;
+&lt;/center&gt;
+]
+
+---
+
+# Gestalt Psychology
+
+.pull-left4[
+
+&lt;ul&gt;
+  &lt;li class="m1"&gt;&lt;span&gt;reification&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m2"&gt;&lt;span&gt;&lt;high&gt;emergence&lt;/high&gt; &lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m3"&gt;&lt;span&gt;Prägnanz (simplicity) &lt;high&gt;&lt;high&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+]
+
+.pull-right5[
+&lt;img src="principles_files/figure-html/unnamed-chunk-6-1.png" style="display: block; margin: auto;" /&gt;
+
+]
+
+
+---
+
+# Gestalt Psychology
+
+.pull-left4[
+
+&lt;ul&gt;
+  &lt;li class="m1"&gt;&lt;span&gt;reification&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m2"&gt;&lt;span&gt;emergence&lt;high&gt;&lt;/high&gt; &lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m3"&gt;&lt;span&gt; &lt;high&gt;Prägnanz (simplicity)&lt;high&gt;&lt;/span&gt;&lt;/li&gt;
+   &lt;ul class="level"&gt;
+    &lt;li&gt;&lt;span&gt;regular&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;simple&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;orderly&lt;/span&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/ul&gt;
+
+]
+
+.pull-right5[
+&lt;img src="principles_files/figure-html/unnamed-chunk-7-1.png" style="display: block; margin: auto;" /&gt;
+
+]
+
+
+---
+
+
+# Law of ...
+
+.pull-left4[
+
+&lt;ul&gt;
+  &lt;li class="m1"&gt;&lt;span&gt;&lt;high&gt;closure&lt;/high&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m2"&gt;&lt;span&gt; continuity&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m3"&gt;&lt;span&gt;similarity&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m4"&gt;&lt;span&gt;proximity&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+]
+
+.pull-right5[
+&lt;img src="principles_files/figure-html/unnamed-chunk-8-1.png" style="display: block; margin: auto;" /&gt;
+
+]
+
+
+---
+
+
+
+# Law of ...
+
+.pull-left4[
+
+&lt;ul&gt;
+  &lt;li class="m1"&gt;&lt;span&gt;closure&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m2"&gt;&lt;span&gt;&lt;high&gt; continuity&lt;/high&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m3"&gt;&lt;span&gt;similarity&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m4"&gt;&lt;span&gt;proximity&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+]
+
+.pull-right5[
+
+&lt;img src="principles_files/figure-html/unnamed-chunk-9-1.png" style="display: block; margin: auto;" /&gt;
+
+
+]
+ 
+
+---
+
+
+# Law of ...
+
+.pull-left4[
+
+&lt;ul&gt;
+  &lt;li class="m1"&gt;&lt;span&gt;closure&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m2"&gt;&lt;span&gt;&lt;high&gt; continuity&lt;/high&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m3"&gt;&lt;span&gt;similarity&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m4"&gt;&lt;span&gt;proximity&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+]
+
+.pull-right5[
+
+&lt;img src="principles_files/figure-html/unnamed-chunk-10-1.png" style="display: block; margin: auto;" /&gt;
+
+
+]
+ 
+
+---
+
+
+# Law of ...
+
+.pull-left4[
+
+&lt;ul&gt;
+  &lt;li class="m1"&gt;&lt;span&gt;closure&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m2"&gt;&lt;span&gt;&lt;high&gt; continuity&lt;/high&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m3"&gt;&lt;span&gt;similarity&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m4"&gt;&lt;span&gt;proximity&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+]
+
+.pull-right5[
+
+&lt;img src="principles_files/figure-html/unnamed-chunk-11-1.png" style="display: block; margin: auto;" /&gt;
+
+
+]
+ 
+
+---
+
+# Law of ...
+
+.pull-left4[
+
+&lt;ul&gt;
+  &lt;li class="m1"&gt;&lt;span&gt;closure&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m2"&gt;&lt;span&gt;continuity&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m3"&gt;&lt;span&gt;&lt;high&gt; similarity&lt;/high&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m4"&gt;&lt;span&gt;proximity&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+]
+
+.pull-right5[
+
+&lt;img src="principles_files/figure-html/unnamed-chunk-12-1.png" style="display: block; margin: auto;" /&gt;
+
+
+]
+ 
+
+---
+
+
+
+# Law of ...
+
+.pull-left4[
+
+&lt;ul&gt;
+  &lt;li class="m1"&gt;&lt;span&gt;closure&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m2"&gt;&lt;span&gt;continuity&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m3"&gt;&lt;span&gt;&lt;high&gt; similarity&lt;/high&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m4"&gt;&lt;span&gt;proximity&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+]
+
+.pull-right5[
+
+&lt;img src="principles_files/figure-html/unnamed-chunk-13-1.png" style="display: block; margin: auto;" /&gt;
+
+
+]
+ 
+
+---
+
+# Law of ...
+
+.pull-left4[
+
+&lt;ul&gt;
+  &lt;li class="m1"&gt;&lt;span&gt;closure&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m2"&gt;&lt;span&gt;continuity&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m3"&gt;&lt;span&gt;&lt;high&gt; similarity&lt;/high&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m4"&gt;&lt;span&gt;proximity&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+]
+
+.pull-right5[
+
+&lt;img src="principles_files/figure-html/unnamed-chunk-14-1.png" style="display: block; margin: auto;" /&gt;
+
+
+]
+
+---
+
+# Law of ...
+
+.pull-left4[
+
+&lt;ul&gt;
+  &lt;li class="m1"&gt;&lt;span&gt;closure&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m2"&gt;&lt;span&gt;continuity&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m3"&gt;&lt;span&gt;&lt;high&gt; similarity&lt;/high&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m4"&gt;&lt;span&gt;proximity&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+]
+
+.pull-right5[
+
+&lt;img src="principles_files/figure-html/unnamed-chunk-15-1.png" style="display: block; margin: auto;" /&gt;
+
+
+]
+
+---
+
+# Law of ...
+
+.pull-left4[
+
+&lt;ul&gt;
+  &lt;li class="m1"&gt;&lt;span&gt;closure&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m2"&gt;&lt;span&gt;continuity&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m3"&gt;&lt;span&gt;&lt;high&gt; similarity&lt;/high&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m4"&gt;&lt;span&gt;proximity&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+]
+
+.pull-right5[
+
+&lt;img src="principles_files/figure-html/unnamed-chunk-16-1.png" style="display: block; margin: auto;" /&gt;
+
+
+]
+
+---
+
+
+# Law of ...
+
+.pull-left4[
+
+&lt;ul&gt;
+  &lt;li class="m1"&gt;&lt;span&gt;closure&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m2"&gt;&lt;span&gt;continuity&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m3"&gt;&lt;span&gt; similarity&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m4"&gt;&lt;span&gt;&lt;high&gt;proximity&lt;/high&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+]
+
+.pull-right5[
+
+&lt;img src="principles_files/figure-html/unnamed-chunk-17-1.png" style="display: block; margin: auto;" /&gt;
+
+
+]
+
+---
+
+# Law of ...
+
+.pull-left4[
+
+&lt;ul&gt;
+  &lt;li class="m1"&gt;&lt;span&gt;closure&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m2"&gt;&lt;span&gt;continuity&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m3"&gt;&lt;span&gt; similarity&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m4"&gt;&lt;span&gt;&lt;high&gt;proximity&lt;/high&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+]
+
+.pull-right5[
+
+&lt;img src="principles_files/figure-html/unnamed-chunk-18-1.png" style="display: block; margin: auto;" /&gt;
+
+
+]
+
+
+---
+
 # Reduce 'clutter'
 
 .pull-left3[
@@ -352,6 +951,33 @@ layout: true
 &lt;font style="font-size:10px"&gt;adapted from &lt;a href="http://www.storytellingwithdata.com/"&gt;storytellingwithdata.com&lt;/a&gt;&lt;/font&gt;
 &lt;/p&gt;
 ]
+
+---
+
+# Give focus
+
+.pull-left3[
+&lt;ul&gt;
+  &lt;li class="m1"&gt;&lt;span&gt;Use &lt;high&gt;few colors&lt;/high&gt; and use them &lt;high&gt;strategically&lt;/high&gt; (applies also to contrast).&lt;/span&gt;&lt;/li&gt;
+  &lt;br&gt;
+  &lt;li class="m2"&gt;&lt;span&gt;Choose colors that are &lt;high&gt;appropriate&lt;/high&gt; and &lt;high&gt;pleasing&lt;/high&gt;.&lt;/span&gt;&lt;/li&gt;
+  &lt;ul class="level"&gt;
+    &lt;li&gt;&lt;span&gt;Tools: &lt;a href="https://color.adobe.com/de/create"&gt;color.adobe.com&lt;/a&gt; oder &lt;a href="https://coolors.co/"&gt;coolors.co&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;Farbsätze: &lt;a href="https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html"&gt;viridis&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;br&gt;
+  &lt;li class="m3"&gt;&lt;span&gt;Be &lt;high&gt;consistent&lt;/high&gt;.&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+]
+
+.pull-right6[
+&lt;p align="center"&gt;
+&lt;img src="image/marriage1.png" height="400px"&gt;&lt;br&gt;
+&lt;font style="font-size:10px"&gt;adapted from &lt;a href="http://www.storytellingwithdata.com/"&gt;storytellingwithdata.com&lt;/a&gt;&lt;/font&gt;
+&lt;/p&gt;
+]
+
 
 ---
 
@@ -588,13 +1214,42 @@ class: middle, center
 &lt;br&gt;
 &lt;p align="center"&gt;
 
-&lt;img src="image/harding.png" height="540px"&gt;&lt;br&gt;
-&lt;font style="font-size:10px"&gt;from &lt;a href="https://www.hardingcenter.de/sites/default/files/2021-05/DE_mRNA-Impfung_Begleittext.pdf"&gt;Harding Center for Risk Literacy&lt;/a&gt;&lt;/font&gt;
+&lt;img src="image/GLOBE---1850-2024-MO.png" height="540px"&gt;&lt;br&gt;
+&lt;font style="font-size:10px"&gt;from &lt;a href="https://showyourstripes.info/s/globe"&gt;Show your stripes&lt;/a&gt;&lt;/font&gt;
 &lt;/p&gt;
 
 
 ---
 
+&lt;br&gt;
+&lt;p align="center"&gt;
+
+&lt;img src="image/GLOBE---1850-2024-MO-withlabels.png" height="540px"&gt;&lt;br&gt;
+&lt;font style="font-size:10px"&gt;from &lt;a href="https://showyourstripes.info/s/globe"&gt;Show your stripes&lt;/a&gt;&lt;/font&gt;
+&lt;/p&gt;
+
+
+---
+
+&lt;br&gt;
+&lt;p align="center"&gt;
+
+&lt;img src="image/GLOBE---1850-2024-MO-bars.png" height="540px"&gt;&lt;br&gt;
+&lt;font style="font-size:10px"&gt;from &lt;a href="https://showyourstripes.info/s/globe"&gt;Show your stripes&lt;/a&gt;&lt;/font&gt;
+&lt;/p&gt;
+
+
+---
+
+&lt;br&gt;
+&lt;p align="center"&gt;
+
+&lt;img src="image/GLOBE---1850-2024-MO-barslabel.png" height="540px"&gt;&lt;br&gt;
+&lt;font style="font-size:10px"&gt;from &lt;a href="https://showyourstripes.info/s/globe"&gt;Show your stripes&lt;/a&gt;&lt;/font&gt;
+&lt;/p&gt;
+
+
+---
 class: middle, center
 
 &lt;h1&gt;Pitches&lt;/h1&gt;

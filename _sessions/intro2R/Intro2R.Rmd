@@ -11,7 +11,7 @@ author: "Data storytelling with R<br>
   <a href='https://therbootcamp.github.io'>
     <i class='fas fa-home' style='font-size:1.4em;' ></i>
   </a>&#8239;
-  <a href='therbootcamp@gmail.com'>
+  <a href='mailto:therbootcamp@gmail.com'>
     <i class='fas fa-envelope' style='font-size: 1.4em;'></i>
   </a>&#8239;
   <a href='https://www.linkedin.com/company/27090302'>
@@ -1245,7 +1245,7 @@ Shortcut for <high>run Chunk again</high>:<br><br2><font size = 6>  &#8984;/ctrl
   <li class="m1"><span>RStudio is...</span></li><br>
   <ul class="level">
     <li><span>A high-productivity <high>data science IDE.</high></span></li><br>
-    <li><span>The <high>company</high> behind the tidyverse.</span></li><br>
+    <li><span>The <high>company (now Posit)</high> behind the tidyverse.</span></li><br>
     <li><span>Designed for R tidyverse with <high>good integration</high> for Python, Markdown, or C++.</span></li><br>
   </ul>
 </ul>
@@ -1255,7 +1255,7 @@ Shortcut for <high>run Chunk again</high>:<br><br2><font size = 6>  &#8984;/ctrl
 .pull-right5[
 
 <p align = "left">
-  <img src="image/folder_structure.png" height="340px">
+  <img src="image/folder_structure.png" height="300px">
 </p>
 
 ]

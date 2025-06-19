@@ -11,7 +11,7 @@ author: "Data storytelling with R<br>
   <a href='https://therbootcamp.github.io'>
     <i class='fas fa-home' style='font-size:1.4em;' ></i>
   </a>&#8239;
-  <a href='therbootcamp@gmail.com'>
+  <a href='mailto:therbootcamp@gmail.com'>
     <i class='fas fa-envelope' style='font-size: 1.4em;'></i>
   </a>&#8239;
   <a href='https://www.linkedin.com/company/27090302'>
