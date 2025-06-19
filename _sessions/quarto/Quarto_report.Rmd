@@ -1,10 +1,13 @@
 ---
 title: "Quarto Report"
-format: html
+format: 
+  html:
+    embed-resources: true
 execute: 
   echo: false
   message: false
   warning: false
+
 ---
 
 In this practical, you will [**recreate this html report**](Report.html).

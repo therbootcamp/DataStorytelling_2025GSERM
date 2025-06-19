@@ -617,15 +617,26 @@ class: middle, center
 
 .pull-left3[
 
-
+<ul>
+  <li class="m1"><span>Your <high>Sketch</high></span></li>
+  <li class="m2"><span>2 slides - 2 Minutes</span></li>
+  <li class="m3"><span>Discussion</span></li>
+</ul>
 
 ]
 
 
 .pull-right6[
-<p align="center">
-In this session, you will introduce your visualization sketch to the rest of the group. You will have 2 slides and 2 minutes for your pitch. Slide 1 should only show a project title and an image (e.g., from unsplash.com.) that helps you introduce and motivate your research question. Slide 2 should only show your hand-drawn visualization sketch and a slide title. No bullet points allowed. Be aware that 2 minutes pass by quickly. Please practice and ideally time your presentation beforehand. After each presentation there will be 3-5 minutes for peer feedback, so please be prepared to comment on fellow participants’ presentations.
-</p>
+
+In this session, you will introduce <high>your visualization sketch</high> to the rest of the group. 
+
+You will have <high>2 slides and 2 minutes</high> for your pitch. 
+
+Slide 1 should <high>only show a project title and an image</high> (e.g., from unsplash.com.) that helps you introduce and motivate your research question. 
+
+Slide 2 should only show <high>your hand-drawn visualization sketch</high> and a slide title. No bullet points allowed. 
+
+After each presentation there will be <high>3-5 minutes for peer feedback</high>, so please be prepared to comment on fellow participants’ presentations.
 
 ]
 
