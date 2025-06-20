@@ -418,8 +418,16 @@ The mind perceives objects as <high>organized wholes</high> rather than <high>se
 
 <ul>
   <li class="m1"><span><high>reification</high></span></li>
+<ul>
+  <li>  experience more spatial information than is present</li>
+</ul>
   <li class="m2"><span>emergence<high></high> </span></li>
+<ul>
+  <li> do not recognize componente (head, tail ...) </li>
+</ul>
   <li class="m3"><span>Prägnanz (simplicity) <high><high></span></li>
+  
+  
 </ul>
 
 ]
@@ -439,7 +447,13 @@ The mind perceives objects as <high>organized wholes</high> rather than <high>se
 
 <ul>
   <li class="m1"><span>reification</span></li>
+  <ul>
+  <li>  experience more spatial information than is present</li>
+</ul>
   <li class="m2"><span><high>emergence</high> </span></li>
+  <ul>
+  <li> do not recognize componente (head, tail ...) </li>
+</ul>
   <li class="m3"><span>Prägnanz (simplicity) <high><high></span></li>
 </ul>
 
@@ -460,7 +474,13 @@ The mind perceives objects as <high>organized wholes</high> rather than <high>se
 
 <ul>
   <li class="m1"><span>reification</span></li>
+  <ul>
+  <li>  experience more spatial information than is present</li>
+</ul>
   <li class="m2"><span><high>emergence</high> </span></li>
+  <ul>
+  <li> do not recognize componente (head, tail ...) </li>
+</ul>
   <li class="m3"><span>Prägnanz (simplicity) <high><high></span></li>
 </ul>
 
@@ -485,7 +505,13 @@ ggplot(circle, aes(x,y)) +
 
 <ul>
   <li class="m1"><span>reification</span></li>
+  <ul>
+  <li>  experience more spatial information than is present</li>
+</ul>
   <li class="m2"><span>emergence<high></high> </span></li>
+  <ul>
+  <li> do not recognize componente (head, tail ...) </li>
+</ul>
   <li class="m3"><span> <high>Prägnanz (simplicity)<high></span></li>
    <ul class="level">
     <li><span>regular</span></li>
@@ -739,7 +765,7 @@ ggplot(mtcars, aes(wt, mpg)) +
 ggplot(mtcars, aes(wt, mpg)) + 
   geom_point(aes(shape=cyl), color="black", size=5) + 
   xlab("weight (1,000 lbs)") +
-  scale_shape_manual(values = c(52,54,56)) +
+  scale_shape_manual("Cylinders",values = c(52,54,56)) +
   theme_bw()
 ```
 
