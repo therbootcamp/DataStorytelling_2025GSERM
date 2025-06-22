@@ -22,3 +22,10 @@ short‐term memory - limited / 4 chunks
 long‐term memory - built up over lifetime
 
 
+
+
+Storytelling: 
+
+Little red riding hood
+
+

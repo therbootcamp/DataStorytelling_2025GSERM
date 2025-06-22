@@ -1252,7 +1252,7 @@ class: middle, center
 <p align="center">
 
 <img src="image/oecd.jpeg" height="540px"><br>
-<font style="font-size:10px">adapted from <a href="https://openknowledge.worldbank.org/handle/10986/13330">World Bank</a></font>
+<font style="font-size:10px">adapted from <a href="https://www.voanews.com/a/urbanization-curbs-poverty-says-world-bank/1648092.html">World Bank</a></font>
 </p>
 
 
