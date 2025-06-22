@@ -171,7 +171,7 @@ ggplot(circle, aes(x,y)) +
   <br>
   <li class="m2"><span>Cognitive limitations</span></li>
   <ul class="level">
-    <li><span>Reduce 'clutter'?</span></li>
+    <li><span>Reduce 'clutter'</span></li>
     <li><span>Create order</span></li>
     <li><span>Give focus</span></li>
     <li><span>Leverage prior knowledge</span></li>
@@ -182,6 +182,8 @@ ggplot(circle, aes(x,y)) +
     <li><span>Text, tables, charts</span></li>
     <li><span>Do's and dont's</span></li>
   </ul>
+    <li class="m4"><span>Focus attention</span></li>
+    <li class="m5"><span>Tell a story</span></li>
 </ul>
 
 ]
@@ -208,7 +210,7 @@ ggplot(circle, aes(x,y)) +
   <br>
   <li class="m2"><span>Cognitive limitations</span></li>
   <ul class="level">
-    <li><span>Reduce 'clutter'?</span></li>
+    <li><span>Reduce 'clutter'</span></li>
     <li><span>Create order</span></li>
     <li><span>Give focus</span></li>
     <li><span>Leverage prior knowledge</span></li>
@@ -219,6 +221,9 @@ ggplot(circle, aes(x,y)) +
     <li><span>Text, tables, charts</span></li>
     <li><span>Do's and dont's</span></li>
   </ul>
+      <li class="m4"><span>Focus attention</span></li>
+    <li class="m5"><span>Tell a story</span></li>
+
 </ul>
 
 ]
@@ -852,8 +857,8 @@ diamonds_summary2<-diamonds %>%
   summarize(n=length(clarity))
 
 ggplot(diamonds_summary2, aes(clarity, n, color=cut, group=cut)) + 
-  geom_line() + 
-  geom_point() + 
+  geom_line(size = 2) + 
+  geom_point(size = 4) + 
   expand_limits(y=0) +
   scale_y_continuous("Count") +
   theme_bw()
@@ -1198,6 +1203,23 @@ ggplot(diamonds_summary2, aes(clarity, n, color=cut, group=cut)) +
 ]
 
 
+---
+
+# Tell a story
+
+.pull-left3[
+
+]
+
+
+.pull-right6[
+<p align="center">
+
+<img src="image/tellstory.png" "><br>
+<font style="font-size:10px">from <a href="stock.adobe.com">stock.adobe.com</a></font>
+</p>
+
+]
 
 
 ---
@@ -1215,6 +1237,14 @@ class: middle, center
 <img src="image/oecd.jpeg" height="540px"><br>
 <font style="font-size:10px">adapted from <a href="https://openknowledge.worldbank.org/handle/10986/13330">World Bank</a></font>
 </p>
+
+
+---
+
+class: middle, center
+
+<h1><a href="">Practical</a><br>What do you prefer and why?</h1>
+
 
 
 ---
