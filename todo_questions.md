@@ -1,10 +1,6 @@
+ggplot charts from Knaflic book: https://github.com/adamribaudo/storytelling-with-data-ggplot
+
 # Index.html
-
-Links - checken
-
-markdown
-principles
-
 
 # Installation.html
 
