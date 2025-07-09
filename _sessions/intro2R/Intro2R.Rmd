@@ -564,7 +564,7 @@ score %>%
 .pull-left45[
 
 <ul>
-  <li class="m1"><span>The <high>novel pipe operator</high> from the <a href="https://cran.r-project.org/web/packages/magrittr/vignettes/magrittr.html"><mono>magrittr</mono></a> package makes chaining commands easy.</span></li>
+  <li class="m1"><span>The <high>pipe operator</high> from the <a href="https://cran.r-project.org/web/packages/magrittr/vignettes/magrittr.html"><mono>magrittr</mono></a> package makes chaining commands easy.</span></li>
 </ul>
 
 <br>
@@ -1169,7 +1169,7 @@ basel %>%
   <li class="m1"><span>RStudio is...</span></li><br>
   <ul class="level">
     <li><span>A high-productivity <high>data science IDE.</high></span></li><br>
-    <li><span>The <high>company</high> behind the tidyverse.</span></li><br>
+    <li><span>The <high>company (now Posit)</high> behind the tidyverse.</span></li><br>
     <li><span>Designed for R tidyverse with <high>good integration</high> for Python, Markdown, or C++.</span></li><br>
   </ul>
 </ul>
@@ -1192,7 +1192,7 @@ basel %>%
   <li class="m1"><span>RStudio is...</span></li><br>
   <ul class="level">
     <li><span>A high-productivity <high>data science IDE.</high></span></li><br>
-    <li><span>The <high>company</high> behind the tidyverse.</span></li><br>
+    <li><span>The <high>company (now Posit)</high> behind the tidyverse.</span></li><br>
     <li><span>Designed for R tidyverse with <high>good integration</high> for Python, Markdown, or C++.</span></li><br>
   </ul>
 </ul>
@@ -1220,7 +1220,7 @@ Shortcut for <high>run Chunk again</high>:<br><br2><font size = 6>  &#8984;/ctrl
   <li class="m1"><span>RStudio is...</span></li><br>
   <ul class="level">
     <li><span>A high-productivity <high>data science IDE.</high></span></li><br>
-    <li><span>The <high>company</high> behind the tidyverse.</span></li><br>
+    <li><span>The <high>company (now Posit)</high> behind the tidyverse.</span></li><br>
     <li><span>Designed for R tidyverse with <high>good integration</high> for Python, Markdown, or C++.</span></li><br>
   </ul>
 </ul>
